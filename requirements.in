@@ -1,0 +1,19 @@
+django
+djangorestframework
+psycopg2-binary
+sentry-sdk
+dj-database-url
+python-dotenv
+zopflipy
+tqdm
+django-storages
+boto3
+
+# For prod
+gunicorn
+
+# For dev
+ipython
+black
+isort
+pip-tools

@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "stage-00"
+version = "0.1.0"
+description = ""
+authors = ["Rémy Sanchez <remy.sanchez@hyperthese.net>"]
+license = "WTFPL"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^2.2.7"
+sentry-sdk = "^0.13.2"
+python-dotenv = "^0.10.3"
+zopflipy = "^1.1"
+tqdm = "^4.38.0"
+gunicorn = "^20.0.0"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.9.0"
+black = "^19.10b0"
+isort = "^4.3.21"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
